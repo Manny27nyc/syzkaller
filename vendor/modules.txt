@@ -32,12 +32,14 @@ github.com/alexkohler/prealloc/pkg
 github.com/ashanbrown/forbidigo/forbidigo
 # github.com/ashanbrown/makezero v0.0.0-20201205152432-7b7cdbb3025a
 github.com/ashanbrown/makezero/makezero
-# github.com/beorn7/perks v1.0.0
+# github.com/beorn7/perks v1.0.1
 github.com/beorn7/perks/quantile
 # github.com/bkielbasa/cyclop v1.2.0
 github.com/bkielbasa/cyclop/pkg/analyzer
 # github.com/bombsimon/wsl/v3 v3.1.0
 github.com/bombsimon/wsl/v3
+# github.com/cespare/xxhash/v2 v2.1.1
+github.com/cespare/xxhash/v2
 # github.com/charithe/durationcheck v0.0.4
 github.com/charithe/durationcheck
 # github.com/daixiang0/gci v0.2.8
@@ -98,7 +100,7 @@ github.com/gobwas/glob/util/strings
 github.com/gofrs/flock
 # github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e
 github.com/golang/groupcache/lru
-# github.com/golang/protobuf v1.4.2
+# github.com/golang/protobuf v1.4.3
 github.com/golang/protobuf/internal/gengogrpc
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/protoc-gen-go
@@ -165,7 +167,7 @@ github.com/golangci/misspell
 github.com/golangci/revgrep
 # github.com/golangci/unconvert v0.0.0-20180507085042-28b1c447d1f4
 github.com/golangci/unconvert
-# github.com/google/go-cmp v0.5.4
+# github.com/google/go-cmp v0.5.5
 ## explicit
 github.com/google/go-cmp/cmp
 github.com/google/go-cmp/cmp/internal/diff
@@ -282,21 +284,22 @@ github.com/pkg/errors
 github.com/pmezard/go-difflib/difflib
 # github.com/polyfloyd/go-errorlint v0.0.0-20201127212506-19bd8db6546f
 github.com/polyfloyd/go-errorlint/errorlint
-# github.com/prometheus/client_golang v0.9.3
+# github.com/prometheus/client_golang v1.11.1
 ## explicit
 github.com/prometheus/client_golang/prometheus
 github.com/prometheus/client_golang/prometheus/internal
 github.com/prometheus/client_golang/prometheus/promauto
 github.com/prometheus/client_golang/prometheus/promhttp
-# github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4
+# github.com/prometheus/client_model v0.2.0
 github.com/prometheus/client_model/go
-# github.com/prometheus/common v0.4.0
+# github.com/prometheus/common v0.26.0
 github.com/prometheus/common/expfmt
 github.com/prometheus/common/internal/bitbucket.org/ww/goautoneg
 github.com/prometheus/common/model
-# github.com/prometheus/procfs v0.0.0-20190507164030-5867b95ac084
+# github.com/prometheus/procfs v0.6.0
 github.com/prometheus/procfs
 github.com/prometheus/procfs/internal/fs
+github.com/prometheus/procfs/internal/util
 # github.com/quasilyte/go-ruleguard v0.3.0
 github.com/quasilyte/go-ruleguard/internal/golist
 github.com/quasilyte/go-ruleguard/internal/mvdan.cc/gogrep
@@ -419,10 +422,10 @@ golang.org/x/oauth2/jwt
 golang.org/x/perf/benchstat
 golang.org/x/perf/internal/stats
 golang.org/x/perf/storage/benchfmt
-# golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
+# golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
 golang.org/x/sync/errgroup
 golang.org/x/sync/semaphore
-# golang.org/x/sys v0.0.0-20210119212857-b64e53b001e4
+# golang.org/x/sys v0.0.0-20210603081109-ebe580a85c40
 ## explicit
 golang.org/x/sys/execabs
 golang.org/x/sys/internal/unsafeheader
@@ -613,7 +616,7 @@ google.golang.org/grpc/serviceconfig
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
-# google.golang.org/protobuf v1.25.0
+# google.golang.org/protobuf v1.26.0-rc.1
 google.golang.org/protobuf/cmd/protoc-gen-go/internal_gengo
 google.golang.org/protobuf/compiler/protogen
 google.golang.org/protobuf/encoding/prototext
@@ -626,13 +629,12 @@ google.golang.org/protobuf/internal/encoding/messageset
 google.golang.org/protobuf/internal/encoding/tag
 google.golang.org/protobuf/internal/encoding/text
 google.golang.org/protobuf/internal/errors
-google.golang.org/protobuf/internal/fieldsort
 google.golang.org/protobuf/internal/filedesc
 google.golang.org/protobuf/internal/filetype
 google.golang.org/protobuf/internal/flags
 google.golang.org/protobuf/internal/genid
 google.golang.org/protobuf/internal/impl
-google.golang.org/protobuf/internal/mapsort
+google.golang.org/protobuf/internal/order
 google.golang.org/protobuf/internal/pragma
 google.golang.org/protobuf/internal/set
 google.golang.org/protobuf/internal/strs
@@ -655,7 +657,7 @@ google.golang.org/protobuf/types/pluginpb
 gopkg.in/ini.v1
 # gopkg.in/yaml.v2 v2.4.0
 gopkg.in/yaml.v2
-# gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776
+# gopkg.in/yaml.v3 v3.0.0
 ## explicit
 gopkg.in/yaml.v3
 # honnef.co/go/tools v0.0.1-2020.1.6
